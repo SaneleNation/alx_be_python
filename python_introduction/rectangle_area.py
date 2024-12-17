@@ -1,4 +1,4 @@
-s script calculates the area of a rectangle
+#This script calculates the area of a rectangle
 
 #Define length and width variables
 length = 10
