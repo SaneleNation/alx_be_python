@@ -1,4 +1,4 @@
-s script converts hours to seconds
+#This script converts hours to seconds
 
 #Define the hours variable
 hours = 2
@@ -7,4 +7,4 @@ hours = 2
 seconds = 3600 * hours
 
 #Display the results 
-print(hours,"hour(s) is",seconds,"seconds") 
+print(hours,"hour(s) is",seconds,"seconds")
