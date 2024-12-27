@@ -5,16 +5,14 @@
 weather = input("What's the weather like today? (sunny/rainy/cold): ")
 
 #Clothing type that will be recommended based on user input and displays the results.
-if "sunny" in weather:
+if weather == "sunny":
     print("Wear a t-shirt and sunglasses.")
 
-elif "rainy" in weather:
+elif weather == "rainy":
     print("Don't forget your umbrella and a raincoat.")
 
-elif "cold" in weather:
+elif weather == "cold":
     print("Make sure to wear a warm coat and a scarf.")
 
 else :
-    print("Sorry, I don't have recommendations for this weather.")
-
-    
+    print("Sorry, I don't have recommendations for this weather.") 
