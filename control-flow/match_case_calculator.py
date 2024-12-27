@@ -2,8 +2,8 @@
 
 
 #User inputs two numbers and a operation.
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
 operation = input("Choose operatin(+,-,*,/) ")
 
 #Perform the calculation using Match Case.
@@ -20,5 +20,4 @@ match operation :
         else:
             print("Cannot divide by zero")
     case _:
-        print("Not a operation sign")
-
+        print("Not a operation sign") 
