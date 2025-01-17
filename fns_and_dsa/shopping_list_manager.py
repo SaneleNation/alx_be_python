@@ -6,7 +6,7 @@ def display_menu():
     print("4. Exit")
 
 def add_item(shopping_list):
-    item = input("Enter the name of the item to add: ").strip()
+    item = input("Enter the item to add: ").strip()
     if item:
         shopping_list.append(item)
         print(f"'{item}' has been added to the shopping list.")
@@ -14,7 +14,7 @@ def add_item(shopping_list):
         print("Item name cannot be empty.")
 
 def remove_item(shopping_list):
-    item = input("Enter the name of the item to remove: ").strip()
+    item = input("Enter the name of the item to remove ").strip()
     if item in shopping_list:
         shopping_list.remove(item)
         print(f"'{item}' has been removed from the shopping list.")
