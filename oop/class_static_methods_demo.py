@@ -3,12 +3,9 @@ class Calculator:
 
     @staticmethod
     def add(a,b):
-        sum = a + b
-        return sum
+        return a + b
     
     @classmethod
     def multiply(cls,a,b):
         print(f"Calculation Type: {cls.calculation_type}")
-        product = a * b
-        return product
-    
+        return a * b 
