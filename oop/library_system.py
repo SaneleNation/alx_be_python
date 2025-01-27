@@ -14,7 +14,7 @@ class EBook(Book):
         self.file_size = file_size
     
     def __str__(self):
-       return f"{super().__str__()} [EBook: {self.title} by {self.author}, File Size: {self.file_size}KB]"
+       return f"EBook: {self.title} by {self.author}, File Size: {self.file_size}KB"
 
 # Derived Class - PrintBook
 class PrintBook(Book):
@@ -23,7 +23,7 @@ class PrintBook(Book):
         self.page_count = page_count
     
     def __str__(self):
-        return f"{super().__str__()} [PrintBook: {self.title} by {self.author}, Page Count: {self.page_count}]"
+        return f"PrintBook: {self.title} by {self.author}, Page Count: {self.page_count}"
 
 # Composition - Library
 class Library:
@@ -36,4 +36,5 @@ class Library:
     def list_books(self):
         for book in self.books:
             print(book)
+
 
